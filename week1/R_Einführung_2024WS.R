@@ -134,7 +134,7 @@ sum(alter)
 # library(gapminder)
 # library(ggplot2)
 # China <- gapminder %>%
-# filter(country == "China")
+#   filter(country == "China")
 # head(China)
 
 # ggplot()
@@ -173,7 +173,7 @@ sum(alter)
 # scratch
 3 + 5 == 8
 
-meine_daten <- data_frame(x1 = c(1, 5, 3), x2 = c(2, 7, 3))
+meine_daten <- data.frame(x1 = c(1, 5, 3), x2 = c(2, 7, 3))
 meine_daten
 meine_daten$x1
 mean(meine_daten$x1)
